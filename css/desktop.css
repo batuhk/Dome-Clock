@@ -1,0 +1,97 @@
+@media only screen and (min-width: 1175px){
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+*   {
+    background-repeat: no-repeat;
+}
+
+#clockdate-wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255,255,255,0.50);
+    padding:25px;
+    max-width:70%;
+    width: 100%;
+    text-align:center;
+    border-radius:5px;
+    margin:0 auto;
+    margin-top:15%;
+}
+#clock{
+    font-family: 'Raleway', sans-serif;
+    font-size:120px;
+    text-shadow:0px 0px 1px #fff;
+    color:black;
+}
+#clock span {
+    color:black;
+    text-shadow:0px 0px 1px #333;
+    font-size:60px;
+    position:relative;
+    top:-27px;
+    left:-10px;
+}
+#date {
+    letter-spacing:10px;
+    font-size:30px;
+    font-family: 'Raleway', sans-serif;
+    color:black;
+}
+
+#clockdate {
+    -webkit-animation: breathing 5s ease-out infinite normal;
+    animation: breathing 5s ease-out infinite normal;
+    font-size: 28px;
+    -webkit-font-smoothing: antialiased;
+    border-radius: 3px;   
+}
+
+
+@-webkit-keyframes breathing {
+  0% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    }
+
+  25% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    }
+
+  60% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    }
+
+  100% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    }
+}
+
+@keyframes breathing {
+  0% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+    }
+
+  25% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    }
+
+  60% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+    }
+
+  100% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+    }
+}
+}
